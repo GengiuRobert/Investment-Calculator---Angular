@@ -13,12 +13,16 @@ export class UserInputComponent {
 
   enteredInitialInvestment = '0';
   enteredAnnualInvestment = '0';
-  enteredExpectedReturn = '0';
-  enteredDuration = '0';
+  enteredExpectedReturn = '5';
+  enteredDuration = '10';
 
 
   onSubmit() {
     console.log("submit");
+    console.log(this.enteredInitialInvestment);
+    console.log(this.enteredAnnualInvestment);
+    console.log(this.enteredExpectedReturn);
+    console.log(this.enteredDuration);
   }
 
 }
